@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_login_001,Edge Chromium 121,,,28-01-2024 23:01:31,28-01-2024 23:02:38,1m - 6.796s,PASSED
+,,,,,,,
+Test Cases/TC_Login_001,Edge Chromium 121,,,28-01-2024 23:01:32,28-01-2024 23:02:38,1m - 5.929s,PASSED
+Start listener action : sampleBeforeTestCase,Edge Chromium 121,,,28-01-2024 23:01:32,28-01-2024 23:02:23,50.591s,PASSED
+"click(findTestObject(""Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/div_Hello, sign in""))",Edge Chromium 121,,,28-01-2024 23:02:23,28-01-2024 23:02:27,4.372s,PASSED
+"setText(findTestObject(""Object Repository/Page_Amazon Sign In/input_email""), ""8096027287"")",Edge Chromium 121,,,28-01-2024 23:02:27,28-01-2024 23:02:30,2.345s,PASSED
+"click(findTestObject(""Object Repository/Page_Amazon Sign In/inputcontinue""))",Edge Chromium 121,,,28-01-2024 23:02:30,28-01-2024 23:02:34,4.554s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Amazon Sign In/input_password""), ""Dw24fpAn266gG7eSJMbliQ=="")",Edge Chromium 121,,,28-01-2024 23:02:34,28-01-2024 23:02:37,2.327s,PASSED
+"click(findTestObject(""Object Repository/Page_Amazon Sign In/inputsignInSubmit""))",Edge Chromium 121,,,28-01-2024 23:02:37,28-01-2024 23:02:37,0.774s,PASSED
+Start listener action : sampleAfterTestCase,Edge Chromium 121,,,28-01-2024 23:02:37,28-01-2024 23:02:38,0.524s,PASSED

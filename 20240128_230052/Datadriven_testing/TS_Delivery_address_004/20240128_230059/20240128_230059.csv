@@ -1,0 +1,30 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Delivery_address_004,Chrome 120.0.0.0,,,28-01-2024 23:01:28,28-01-2024 23:04:44,3m - 15.770s,PASSED
+,,,,,,,
+Test Cases/Datadriven_testing/TC_Delivery_address_003,Chrome 120.0.0.0,,,28-01-2024 23:01:29,28-01-2024 23:02:33,1m - 4.155s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 120.0.0.0,,,28-01-2024 23:01:29,28-01-2024 23:02:28,58.239s,PASSED
+"click(findTestObject(""Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/span_Update location""))",Chrome 120.0.0.0,,,28-01-2024 23:02:28,28-01-2024 23:02:30,2.502s,PASSED
+"setText(findTestObject(""Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/inputGLUXZipUpdateInput""), pincode)",Chrome 120.0.0.0,,,28-01-2024 23:02:30,28-01-2024 23:02:32,1.966s,PASSED
+"click(findTestObject(""Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/input_a-button-input""))",Chrome 120.0.0.0,,,28-01-2024 23:02:32,28-01-2024 23:02:33,0.601s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 120.0.0.0,,,28-01-2024 23:02:33,28-01-2024 23:02:33,0.412s,PASSED
+,,,,,,,
+Test Cases/Datadriven_testing/TC_Delivery_address_003,Chrome 120.0.0.0,,,28-01-2024 23:02:33,28-01-2024 23:03:16,43.135s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 120.0.0.0,,,28-01-2024 23:02:33,28-01-2024 23:03:08,34.891s,PASSED
+"click(findTestObject(""Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/span_Update location""))",Chrome 120.0.0.0,,,28-01-2024 23:03:08,28-01-2024 23:03:13,4.916s,PASSED
+"setText(findTestObject(""Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/inputGLUXZipUpdateInput""), pincode)",Chrome 120.0.0.0,,,28-01-2024 23:03:13,28-01-2024 23:03:16,2.488s,PASSED
+"click(findTestObject(""Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/input_a-button-input""))",Chrome 120.0.0.0,,,28-01-2024 23:03:16,28-01-2024 23:03:16,0.519s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 120.0.0.0,,,28-01-2024 23:03:16,28-01-2024 23:03:16,0.258s,PASSED
+,,,,,,,
+Test Cases/Datadriven_testing/TC_Delivery_address_003,Chrome 120.0.0.0,,,28-01-2024 23:03:16,28-01-2024 23:04:07,50.284s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 120.0.0.0,,,28-01-2024 23:03:16,28-01-2024 23:03:49,32.479s,PASSED
+"click(findTestObject(""Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/span_Update location""))",Chrome 120.0.0.0,,,28-01-2024 23:03:49,28-01-2024 23:03:54,4.584s,PASSED
+"setText(findTestObject(""Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/inputGLUXZipUpdateInput""), pincode)",Chrome 120.0.0.0,,,28-01-2024 23:03:54,28-01-2024 23:04:06,12.345s,PASSED
+"click(findTestObject(""Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/input_a-button-input""))",Chrome 120.0.0.0,,,28-01-2024 23:04:06,28-01-2024 23:04:06,0.543s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 120.0.0.0,,,28-01-2024 23:04:06,28-01-2024 23:04:07,0.297s,PASSED
+,,,,,,,
+Test Cases/Datadriven_testing/TC_Delivery_address_003,Chrome 120.0.0.0,,,28-01-2024 23:04:07,28-01-2024 23:04:44,36.818s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 120.0.0.0,,,28-01-2024 23:04:07,28-01-2024 23:04:38,31.451s,PASSED
+"click(findTestObject(""Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/span_Update location""))",Chrome 120.0.0.0,,,28-01-2024 23:04:38,28-01-2024 23:04:41,2.895s,PASSED
+"setText(findTestObject(""Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/inputGLUXZipUpdateInput""), pincode)",Chrome 120.0.0.0,,,28-01-2024 23:04:41,28-01-2024 23:04:43,1.514s,PASSED
+"click(findTestObject(""Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/input_a-button-input""))",Chrome 120.0.0.0,,,28-01-2024 23:04:43,28-01-2024 23:04:43,0.591s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 120.0.0.0,,,28-01-2024 23:04:43,28-01-2024 23:04:44,0.324s,PASSED

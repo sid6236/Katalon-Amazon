@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_country_change_005</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3ce9dfaa-fa2a-4cf1-9dae-facc7cf88b84</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>54505f40-b9c1-401b-822b-908bdd7954d9</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>54505f40-b9c1-401b-822b-908bdd7954d9</id>
+      <masked>false</masked>
+      <name>location</name>
+   </variable>
+</TestCaseEntity>

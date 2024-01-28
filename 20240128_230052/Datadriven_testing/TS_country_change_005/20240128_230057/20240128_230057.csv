@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_country_change_005,Chrome 120.0.0.0,,,28-01-2024 23:01:25,28-01-2024 23:08:39,7m - 14.100s,PASSED
+,,,,,,,
+Test Cases/Datadriven_testing/TC_country_change_005,Chrome 120.0.0.0,,,28-01-2024 23:01:26,28-01-2024 23:03:38,2m - 12.329s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 120.0.0.0,,,28-01-2024 23:01:26,28-01-2024 23:02:29,1m - 3.281s,PASSED
+"click(findTestObject(""Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/"" + location))",Chrome 120.0.0.0,,,28-01-2024 23:02:30,28-01-2024 23:03:38,1m - 8.238s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 120.0.0.0,,,28-01-2024 23:03:38,28-01-2024 23:03:38,0.440s,PASSED
+,,,,,,,
+Test Cases/Datadriven_testing/TC_country_change_005,Chrome 120.0.0.0,,,28-01-2024 23:03:38,28-01-2024 23:05:56,2m - 17.592s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 120.0.0.0,,,28-01-2024 23:03:38,28-01-2024 23:04:27,48.062s,PASSED
+"click(findTestObject(""Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/"" + location))",Chrome 120.0.0.0,,,28-01-2024 23:04:27,28-01-2024 23:05:56,1m - 29.221s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 120.0.0.0,,,28-01-2024 23:05:56,28-01-2024 23:05:56,0.270s,PASSED
+,,,,,,,
+Test Cases/Datadriven_testing/TC_country_change_005,Chrome 120.0.0.0,,,28-01-2024 23:05:56,28-01-2024 23:08:13,2m - 16.468s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 120.0.0.0,,,28-01-2024 23:05:56,28-01-2024 23:06:20,23.496s,PASSED
+"click(findTestObject(""Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/"" + location))",Chrome 120.0.0.0,,,28-01-2024 23:06:20,28-01-2024 23:08:12,1m - 52.798s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 120.0.0.0,,,28-01-2024 23:08:12,28-01-2024 23:08:13,0.145s,PASSED
+,,,,,,,
+Test Cases/Datadriven_testing/TC_country_change_005,Chrome 120.0.0.0,,,28-01-2024 23:08:13,28-01-2024 23:08:39,26.700s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 120.0.0.0,,,28-01-2024 23:08:13,28-01-2024 23:08:31,18.637s,PASSED
+"click(findTestObject(""Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/"" + location))",Chrome 120.0.0.0,,,28-01-2024 23:08:31,28-01-2024 23:08:39,7.894s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 120.0.0.0,,,28-01-2024 23:08:39,28-01-2024 23:08:39,0.145s,PASSED

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Delivery_address_003</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d5ad105f-0fe0-4a2f-97b9-be837e27fef1</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6ae8c366-9cb0-47d1-9c67-61a97476ae58</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6ae8c366-9cb0-47d1-9c67-61a97476ae58</id>
+      <masked>false</masked>
+      <name>pincode</name>
+   </variable>
+</TestCaseEntity>

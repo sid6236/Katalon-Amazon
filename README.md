@@ -1,2 +1,1 @@
-# Katalon-Amazon
-katalon
+# AMAZON-KATALON

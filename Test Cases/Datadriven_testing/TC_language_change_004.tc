@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_language_change_004</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>560d65e1-8cb6-4149-bc3f-297615cc0aea</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f03c3bb7-14db-493f-b026-600857b5c9f6</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f03c3bb7-14db-493f-b026-600857b5c9f6</id>
+      <masked>false</masked>
+      <name>language</name>
+   </variable>
+</TestCaseEntity>

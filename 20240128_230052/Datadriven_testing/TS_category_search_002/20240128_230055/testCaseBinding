@@ -1,0 +1,3 @@
+{"testCaseName":"Test Cases/Datadriven_testing/TC_category_search_002","testCaseId":"Test Cases/Datadriven_testing/TC_category_search_002","iterationVariableName":"","bindedValues":{"item":"\u0027lipstick\u0027","category":"\u0027beauty\u0027"}}
+{"testCaseName":"Test Cases/Datadriven_testing/TC_category_search_002","testCaseId":"Test Cases/Datadriven_testing/TC_category_search_002","iterationVariableName":"","bindedValues":{"item":"\u0027walker\u0027","category":"\u0027baby\u0027"}}
+{"testCaseName":"Test Cases/Datadriven_testing/TC_category_search_002","testCaseId":"Test Cases/Datadriven_testing/TC_category_search_002","iterationVariableName":"","bindedValues":{"item":"\u0027switch\u0027","category":"\u0027electronics\u0027"}}

@@ -1,0 +1,703 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suite Collection" time="450.178" tests="17" failures="0" errors="0">
+   <testsuite name="check_point_008_TS" tests="1" failures="0" errors="0" time="54.727" skipped="0" timestamp="28-01-2024T23:01:24" hostname="Santhoshini - LAPTOP-JQ2M32JD" id="Test Suites/check_point_008_TS">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Santhoshini\\git\\AMAZON-KATALON\\AMAZON-KATALON\\Reports\\20240128_230052\\check_point_008_TS\\20240128_230053"/>
+         <property name="logFiles" value="C:\\Users\\Santhoshini\\git\\AMAZON-KATALON\\AMAZON-KATALON\\Reports\\20240128_230052\\check_point_008_TS\\20240128_230053\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Santhoshini - LAPTOP-JQ2M32JD"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+         <property name="browser" value="Edge Chromium 121"/>
+         <property name="hostAddress" value="192.168.129.23"/>
+         <property name="sessionId" value="3b60ed3816988f861fd8976ef9b8a82c"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/checkpoint_tc_address_008" time="53.577" classname="Test Cases/checkpoint_tc_address_008" status="PASSED">
+         <system-out><![CDATA[28-01-2024T23:01:25 - [TEST_CASE][PASSED] - Test Cases/checkpoint_tc_address_008: Test Cases/checkpoint_tc_address_008
+
+28-01-2024T23:01:25 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Navigate to 'https://www.amazon.in/' successfully
+
+28-01-2024T23:01:25 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+28-01-2024T23:01:27 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+28-01-2024T23:01:29 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+28-01-2024T23:01:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+28-01-2024T23:01:34 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/"): Navigate to 'https://www.amazon.in/' successfully
+
+28-01-2024T23:02:16 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/' successfully
+
+28-01-2024T23:02:17 - [TEST_STEP][PASSED] - verifyCheckpoint(findCheckpoint("Checkpoints/Checkpoint_delivery_address"), true): Checkpoint data and Source data are matched
+
+28-01-2024T23:02:18 - [MESSAGE][PASSED] - Checkpoint data and Source data are matched
+
+28-01-2024T23:02:18 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+28-01-2024T23:02:18 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+28-01-2024T23:02:19 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[28-01-2024T23:01:24 - [TEST_SUITE][PASSED] - check_point_008_TS: Test Cases/checkpoint_tc_address_008]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+   <testsuite name="TS_category_search_002" tests="3" failures="0" errors="0" time="404.71" skipped="0" timestamp="28-01-2024T23:01:26" hostname="Santhoshini - LAPTOP-JQ2M32JD" id="Test Suites/Datadriven_testing/TS_category_search_002">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Santhoshini\\git\\AMAZON-KATALON\\AMAZON-KATALON\\Reports\\20240128_230052\\Datadriven_testing\\TS_category_search_002\\20240128_230055"/>
+         <property name="logFiles" value="C:\\Users\\Santhoshini\\git\\AMAZON-KATALON\\AMAZON-KATALON\\Reports\\20240128_230052\\Datadriven_testing\\TS_category_search_002\\20240128_230055\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Santhoshini - LAPTOP-JQ2M32JD"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+         <property name="browser" value="Chrome 120.0.0.0"/>
+         <property name="hostAddress" value="192.168.129.23"/>
+         <property name="sessionId" value="b45b79475c43c54b02924b186eccb162"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Datadriven_testing/TC_category_search_002" time="141.035" classname="Test Cases/Datadriven_testing/TC_category_search_002" status="PASSED">
+         <system-out><![CDATA[28-01-2024T23:01:28 - [TEST_CASE][PASSED] - Test Cases/Datadriven_testing/TC_category_search_002: Test Cases/Datadriven_testing/TC_category_search_002
+
+28-01-2024T23:01:28 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Navigate to 'https://www.amazon.in/' successfully
+
+28-01-2024T23:01:28 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+28-01-2024T23:01:30 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+28-01-2024T23:01:30 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+28-01-2024T23:01:36 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+28-01-2024T23:01:36 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/"): Navigate to 'https://www.amazon.in/' successfully
+
+28-01-2024T23:02:30 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/' successfully
+
+28-01-2024T23:02:31 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _a62561"), "search-alias=" + category, true): All options with value 'search-alias=beauty' are selected in object 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _a62561'  using regular expression
+
+28-01-2024T23:02:35 - [MESSAGE][PASSED] - All options with value 'search-alias=beauty' are selected in object 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _a62561'  using regular expression
+
+28-01-2024T23:02:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/input_field-keywords"), item): Text 'lipstick' is set on object 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/input_field-keywords'
+
+28-01-2024T23:02:37 - [MESSAGE][PASSED] - Text 'lipstick' is set on object 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/input_field-keywords'
+
+28-01-2024T23:02:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/inputnav-search-submit-button")): Object: 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/inputnav-search-submit-button' is clicked on
+
+28-01-2024T23:03:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/inputnav-search-submit-button' is clicked on
+
+28-01-2024T23:03:48 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+28-01-2024T23:03:48 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+28-01-2024T23:03:49 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Datadriven_testing/TC_category_search_002" time="130.517" classname="Test Cases/Datadriven_testing/TC_category_search_002" status="PASSED">
+         <system-out><![CDATA[28-01-2024T23:03:49 - [TEST_CASE][PASSED] - Test Cases/Datadriven_testing/TC_category_search_002: Test Cases/Datadriven_testing/TC_category_search_002
+
+28-01-2024T23:03:49 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Navigate to 'https://www.amazon.in/' successfully
+
+28-01-2024T23:03:49 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+28-01-2024T23:03:49 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+28-01-2024T23:03:49 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+28-01-2024T23:03:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+28-01-2024T23:03:50 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/"): Navigate to 'https://www.amazon.in/' successfully
+
+28-01-2024T23:04:52 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/' successfully
+
+28-01-2024T23:04:52 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _a62561"), "search-alias=" + category, true): All options with value 'search-alias=baby' are selected in object 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _a62561'  using regular expression
+
+28-01-2024T23:04:56 - [MESSAGE][PASSED] - All options with value 'search-alias=baby' are selected in object 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _a62561'  using regular expression
+
+28-01-2024T23:04:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/input_field-keywords"), item): Text 'walker' is set on object 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/input_field-keywords'
+
+28-01-2024T23:04:58 - [MESSAGE][PASSED] - Text 'walker' is set on object 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/input_field-keywords'
+
+28-01-2024T23:04:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/inputnav-search-submit-button")): Object: 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/inputnav-search-submit-button' is clicked on
+
+28-01-2024T23:05:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/inputnav-search-submit-button' is clicked on
+
+28-01-2024T23:05:59 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+28-01-2024T23:05:59 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+28-01-2024T23:05:59 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Datadriven_testing/TC_category_search_002" time="131.348" classname="Test Cases/Datadriven_testing/TC_category_search_002" status="PASSED">
+         <system-out><![CDATA[28-01-2024T23:05:59 - [TEST_CASE][PASSED] - Test Cases/Datadriven_testing/TC_category_search_002: Test Cases/Datadriven_testing/TC_category_search_002
+
+28-01-2024T23:05:59 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Navigate to 'https://www.amazon.in/' successfully
+
+28-01-2024T23:05:59 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+28-01-2024T23:05:59 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+28-01-2024T23:05:59 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+28-01-2024T23:06:01 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+28-01-2024T23:06:01 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/"): Navigate to 'https://www.amazon.in/' successfully
+
+28-01-2024T23:06:26 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/' successfully
+
+28-01-2024T23:06:26 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _a62561"), "search-alias=" + category, true): All options with value 'search-alias=electronics' are selected in object 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _a62561'  using regular expression
+
+28-01-2024T23:06:30 - [MESSAGE][PASSED] - All options with value 'search-alias=electronics' are selected in object 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _a62561'  using regular expression
+
+28-01-2024T23:06:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/input_field-keywords"), item): Text 'switch' is set on object 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/input_field-keywords'
+
+28-01-2024T23:06:31 - [MESSAGE][PASSED] - Text 'switch' is set on object 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/input_field-keywords'
+
+28-01-2024T23:06:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/inputnav-search-submit-button")): Object: 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/inputnav-search-submit-button' is clicked on
+
+28-01-2024T23:08:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/inputnav-search-submit-button' is clicked on
+
+28-01-2024T23:08:11 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+28-01-2024T23:08:11 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+28-01-2024T23:08:11 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[28-01-2024T23:01:26 - [TEST_SUITE][PASSED] - TS_category_search_002: Test Cases/Datadriven_testing/TC_category_search_002]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+   <testsuite name="TS_country_change_005" tests="4" failures="0" errors="0" time="434.1" skipped="0" timestamp="28-01-2024T23:01:25" hostname="Santhoshini - LAPTOP-JQ2M32JD" id="Test Suites/Datadriven_testing/TS_country_change_005">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Santhoshini\\git\\AMAZON-KATALON\\AMAZON-KATALON\\Reports\\20240128_230052\\Datadriven_testing\\TS_country_change_005\\20240128_230057"/>
+         <property name="logFiles" value="C:\\Users\\Santhoshini\\git\\AMAZON-KATALON\\AMAZON-KATALON\\Reports\\20240128_230052\\Datadriven_testing\\TS_country_change_005\\20240128_230057\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Santhoshini - LAPTOP-JQ2M32JD"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+         <property name="browser" value="Chrome 120.0.0.0"/>
+         <property name="hostAddress" value="192.168.129.23"/>
+         <property name="sessionId" value="991d1171a6a548a886251fa85413b92e"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Datadriven_testing/TC_country_change_005" time="132.329" classname="Test Cases/Datadriven_testing/TC_country_change_005" status="PASSED">
+         <system-out><![CDATA[28-01-2024T23:01:26 - [TEST_CASE][PASSED] - Test Cases/Datadriven_testing/TC_country_change_005: Test Cases/Datadriven_testing/TC_country_change_005
+
+28-01-2024T23:01:26 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Navigate to 'https://www.amazon.in/' successfully
+
+28-01-2024T23:01:26 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+28-01-2024T23:01:28 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+28-01-2024T23:01:29 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+28-01-2024T23:01:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+28-01-2024T23:01:34 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/"): Navigate to 'https://www.amazon.in/' successfully
+
+28-01-2024T23:02:29 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/' successfully
+
+28-01-2024T23:02:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/" + location)): Object: 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/Australia' is clicked on
+
+28-01-2024T23:03:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/Australia' is clicked on
+
+28-01-2024T23:03:38 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+28-01-2024T23:03:38 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+28-01-2024T23:03:38 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Datadriven_testing/TC_country_change_005" time="137.592" classname="Test Cases/Datadriven_testing/TC_country_change_005" status="PASSED">
+         <system-out><![CDATA[28-01-2024T23:03:38 - [TEST_CASE][PASSED] - Test Cases/Datadriven_testing/TC_country_change_005: Test Cases/Datadriven_testing/TC_country_change_005
+
+28-01-2024T23:03:38 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Navigate to 'https://www.amazon.in/' successfully
+
+28-01-2024T23:03:38 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+28-01-2024T23:03:38 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+28-01-2024T23:03:38 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+28-01-2024T23:03:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+28-01-2024T23:03:40 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/"): Navigate to 'https://www.amazon.in/' successfully
+
+28-01-2024T23:04:27 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/' successfully
+
+28-01-2024T23:04:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/" + location)): Object: 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/Brazil' is clicked on
+
+28-01-2024T23:05:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/Brazil' is clicked on
+
+28-01-2024T23:05:56 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+28-01-2024T23:05:56 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+28-01-2024T23:05:56 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Datadriven_testing/TC_country_change_005" time="136.468" classname="Test Cases/Datadriven_testing/TC_country_change_005" status="PASSED">
+         <system-out><![CDATA[28-01-2024T23:05:56 - [TEST_CASE][PASSED] - Test Cases/Datadriven_testing/TC_country_change_005: Test Cases/Datadriven_testing/TC_country_change_005
+
+28-01-2024T23:05:56 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Navigate to 'https://www.amazon.in/' successfully
+
+28-01-2024T23:05:56 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+28-01-2024T23:05:56 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+28-01-2024T23:05:56 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+28-01-2024T23:05:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+28-01-2024T23:05:58 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/"): Navigate to 'https://www.amazon.in/' successfully
+
+28-01-2024T23:06:20 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/' successfully
+
+28-01-2024T23:06:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/" + location)): Object: 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/Canada' is clicked on
+
+28-01-2024T23:08:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/Canada' is clicked on
+
+28-01-2024T23:08:12 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+28-01-2024T23:08:12 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+28-01-2024T23:08:13 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Datadriven_testing/TC_country_change_005" time="26.7" classname="Test Cases/Datadriven_testing/TC_country_change_005" status="PASSED">
+         <system-out><![CDATA[28-01-2024T23:08:13 - [TEST_CASE][PASSED] - Test Cases/Datadriven_testing/TC_country_change_005: Test Cases/Datadriven_testing/TC_country_change_005
+
+28-01-2024T23:08:13 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Navigate to 'https://www.amazon.in/' successfully
+
+28-01-2024T23:08:13 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+28-01-2024T23:08:13 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+28-01-2024T23:08:13 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+28-01-2024T23:08:13 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+28-01-2024T23:08:13 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/"): Navigate to 'https://www.amazon.in/' successfully
+
+28-01-2024T23:08:31 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/' successfully
+
+28-01-2024T23:08:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/" + location)): Object: 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/China' is clicked on
+
+28-01-2024T23:08:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/China' is clicked on
+
+28-01-2024T23:08:39 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+28-01-2024T23:08:39 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+28-01-2024T23:08:39 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[28-01-2024T23:01:25 - [TEST_SUITE][PASSED] - TS_country_change_005: Test Cases/Datadriven_testing/TC_country_change_005]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+   <testsuite name="TS_Delivery_address_004" tests="4" failures="0" errors="0" time="195.77" skipped="0" timestamp="28-01-2024T23:01:28" hostname="Santhoshini - LAPTOP-JQ2M32JD" id="Test Suites/Datadriven_testing/TS_Delivery_address_004">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Santhoshini\\git\\AMAZON-KATALON\\AMAZON-KATALON\\Reports\\20240128_230052\\Datadriven_testing\\TS_Delivery_address_004\\20240128_230059"/>
+         <property name="logFiles" value="C:\\Users\\Santhoshini\\git\\AMAZON-KATALON\\AMAZON-KATALON\\Reports\\20240128_230052\\Datadriven_testing\\TS_Delivery_address_004\\20240128_230059\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Santhoshini - LAPTOP-JQ2M32JD"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+         <property name="browser" value="Chrome 120.0.0.0"/>
+         <property name="hostAddress" value="192.168.129.23"/>
+         <property name="sessionId" value="e989e9ccecc576d7cabaa9f2f345a44d"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Datadriven_testing/TC_Delivery_address_003" time="64.155" classname="Test Cases/Datadriven_testing/TC_Delivery_address_003" status="PASSED">
+         <system-out><![CDATA[28-01-2024T23:01:29 - [TEST_CASE][PASSED] - Test Cases/Datadriven_testing/TC_Delivery_address_003: Test Cases/Datadriven_testing/TC_Delivery_address_003
+
+28-01-2024T23:01:29 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Navigate to 'https://www.amazon.in/' successfully
+
+28-01-2024T23:01:29 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+28-01-2024T23:01:31 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+28-01-2024T23:01:31 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+28-01-2024T23:01:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+28-01-2024T23:01:37 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/"): Navigate to 'https://www.amazon.in/' successfully
+
+28-01-2024T23:02:28 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/' successfully
+
+28-01-2024T23:02:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/span_Update location")): Object: 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/span_Update location' is clicked on
+
+28-01-2024T23:02:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/span_Update location' is clicked on
+
+28-01-2024T23:02:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/inputGLUXZipUpdateInput"), pincode): Text '533291' is set on object 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/inputGLUXZipUpdateInput'
+
+28-01-2024T23:02:32 - [MESSAGE][PASSED] - Text '533291' is set on object 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/inputGLUXZipUpdateInput'
+
+28-01-2024T23:02:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/input_a-button-input")): Object: 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/input_a-button-input' is clicked on
+
+28-01-2024T23:02:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/input_a-button-input' is clicked on
+
+28-01-2024T23:02:33 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+28-01-2024T23:02:33 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+28-01-2024T23:02:33 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Datadriven_testing/TC_Delivery_address_003" time="43.135" classname="Test Cases/Datadriven_testing/TC_Delivery_address_003" status="PASSED">
+         <system-out><![CDATA[28-01-2024T23:02:33 - [TEST_CASE][PASSED] - Test Cases/Datadriven_testing/TC_Delivery_address_003: Test Cases/Datadriven_testing/TC_Delivery_address_003
+
+28-01-2024T23:02:33 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Navigate to 'https://www.amazon.in/' successfully
+
+28-01-2024T23:02:33 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+28-01-2024T23:02:33 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+28-01-2024T23:02:33 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+28-01-2024T23:02:35 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+28-01-2024T23:02:35 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/"): Navigate to 'https://www.amazon.in/' successfully
+
+28-01-2024T23:03:08 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/' successfully
+
+28-01-2024T23:03:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/span_Update location")): Object: 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/span_Update location' is clicked on
+
+28-01-2024T23:03:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/span_Update location' is clicked on
+
+28-01-2024T23:03:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/inputGLUXZipUpdateInput"), pincode): Text '533294' is set on object 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/inputGLUXZipUpdateInput'
+
+28-01-2024T23:03:16 - [MESSAGE][PASSED] - Text '533294' is set on object 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/inputGLUXZipUpdateInput'
+
+28-01-2024T23:03:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/input_a-button-input")): Object: 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/input_a-button-input' is clicked on
+
+28-01-2024T23:03:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/input_a-button-input' is clicked on
+
+28-01-2024T23:03:16 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+28-01-2024T23:03:16 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+28-01-2024T23:03:16 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Datadriven_testing/TC_Delivery_address_003" time="50.284" classname="Test Cases/Datadriven_testing/TC_Delivery_address_003" status="PASSED">
+         <system-out><![CDATA[28-01-2024T23:03:16 - [TEST_CASE][PASSED] - Test Cases/Datadriven_testing/TC_Delivery_address_003: Test Cases/Datadriven_testing/TC_Delivery_address_003
+
+28-01-2024T23:03:16 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Navigate to 'https://www.amazon.in/' successfully
+
+28-01-2024T23:03:16 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+28-01-2024T23:03:16 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+28-01-2024T23:03:17 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+28-01-2024T23:03:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+28-01-2024T23:03:18 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/"): Navigate to 'https://www.amazon.in/' successfully
+
+28-01-2024T23:03:49 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/' successfully
+
+28-01-2024T23:03:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/span_Update location")): Object: 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/span_Update location' is clicked on
+
+28-01-2024T23:03:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/span_Update location' is clicked on
+
+28-01-2024T23:03:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/inputGLUXZipUpdateInput"), pincode): Text '533201' is set on object 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/inputGLUXZipUpdateInput'
+
+28-01-2024T23:04:06 - [MESSAGE][PASSED] - Text '533201' is set on object 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/inputGLUXZipUpdateInput'
+
+28-01-2024T23:04:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/input_a-button-input")): Object: 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/input_a-button-input' is clicked on
+
+28-01-2024T23:04:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/input_a-button-input' is clicked on
+
+28-01-2024T23:04:06 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+28-01-2024T23:04:06 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+28-01-2024T23:04:07 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Datadriven_testing/TC_Delivery_address_003" time="36.818" classname="Test Cases/Datadriven_testing/TC_Delivery_address_003" status="PASSED">
+         <system-out><![CDATA[28-01-2024T23:04:07 - [TEST_CASE][PASSED] - Test Cases/Datadriven_testing/TC_Delivery_address_003: Test Cases/Datadriven_testing/TC_Delivery_address_003
+
+28-01-2024T23:04:07 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Navigate to 'https://www.amazon.in/' successfully
+
+28-01-2024T23:04:07 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+28-01-2024T23:04:07 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+28-01-2024T23:04:07 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+28-01-2024T23:04:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+28-01-2024T23:04:09 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/"): Navigate to 'https://www.amazon.in/' successfully
+
+28-01-2024T23:04:38 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/' successfully
+
+28-01-2024T23:04:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/span_Update location")): Object: 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/span_Update location' is clicked on
+
+28-01-2024T23:04:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/span_Update location' is clicked on
+
+28-01-2024T23:04:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/inputGLUXZipUpdateInput"), pincode): Text '505101' is set on object 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/inputGLUXZipUpdateInput'
+
+28-01-2024T23:04:43 - [MESSAGE][PASSED] - Text '505101' is set on object 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/inputGLUXZipUpdateInput'
+
+28-01-2024T23:04:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/input_a-button-input")): Object: 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/input_a-button-input' is clicked on
+
+28-01-2024T23:04:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/input_a-button-input' is clicked on
+
+28-01-2024T23:04:43 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+28-01-2024T23:04:43 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+28-01-2024T23:04:44 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[28-01-2024T23:01:28 - [TEST_SUITE][PASSED] - TS_Delivery_address_004: Test Cases/Datadriven_testing/TC_Delivery_address_003]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+   <testsuite name="TS_language_change_004" tests="4" failures="0" errors="0" time="199.016" skipped="0" timestamp="28-01-2024T23:01:28" hostname="Santhoshini - LAPTOP-JQ2M32JD" id="Test Suites/Datadriven_testing/TS_language_change_004">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Santhoshini\\git\\AMAZON-KATALON\\AMAZON-KATALON\\Reports\\20240128_230052\\Datadriven_testing\\TS_language_change_004\\20240128_230101"/>
+         <property name="logFiles" value="C:\\Users\\Santhoshini\\git\\AMAZON-KATALON\\AMAZON-KATALON\\Reports\\20240128_230052\\Datadriven_testing\\TS_language_change_004\\20240128_230101\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Santhoshini - LAPTOP-JQ2M32JD"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+         <property name="browser" value="Chrome 120.0.0.0"/>
+         <property name="hostAddress" value="192.168.129.23"/>
+         <property name="sessionId" value="aafcfc0ac953940c631bb0a4d918b337"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Datadriven_testing/TC_language_change_004" time="58.743" classname="Test Cases/Datadriven_testing/TC_language_change_004" status="PASSED">
+         <system-out><![CDATA[28-01-2024T23:01:29 - [TEST_CASE][PASSED] - Test Cases/Datadriven_testing/TC_language_change_004: Test Cases/Datadriven_testing/TC_language_change_004
+
+28-01-2024T23:01:29 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Navigate to 'https://www.amazon.in/' successfully
+
+28-01-2024T23:01:29 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+28-01-2024T23:01:31 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+28-01-2024T23:01:31 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+28-01-2024T23:01:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+28-01-2024T23:01:37 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/"): Navigate to 'https://www.amazon.in/' successfully
+
+28-01-2024T23:02:22 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/' successfully
+
+28-01-2024T23:02:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/language/Page_Online Shopping site in India Shop Onl_10c5f3/div_EN")): Object: 'Object Repository/language/Page_Online Shopping site in India Shop Onl_10c5f3/div_EN' is clicked on
+
+28-01-2024T23:02:25 - [MESSAGE][PASSED] - Object: 'Object Repository/language/Page_Online Shopping site in India Shop Onl_10c5f3/div_EN' is clicked on
+
+28-01-2024T23:02:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/language/Page_Change Language Settings/" + language)): Object: 'Object Repository/language/Page_Change Language Settings/Malayalam' is clicked on
+
+28-01-2024T23:02:26 - [MESSAGE][PASSED] - Object: 'Object Repository/language/Page_Change Language Settings/Malayalam' is clicked on
+
+28-01-2024T23:02:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/language/Page_Change Language Settings/input_a-button-input")): Object: 'Object Repository/language/Page_Change Language Settings/input_a-button-input' is clicked on
+
+28-01-2024T23:02:27 - [MESSAGE][PASSED] - Object: 'Object Repository/language/Page_Change Language Settings/input_a-button-input' is clicked on
+
+28-01-2024T23:02:27 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+28-01-2024T23:02:27 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+28-01-2024T23:02:28 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Datadriven_testing/TC_language_change_004" time="33.186" classname="Test Cases/Datadriven_testing/TC_language_change_004" status="PASSED">
+         <system-out><![CDATA[28-01-2024T23:02:28 - [TEST_CASE][PASSED] - Test Cases/Datadriven_testing/TC_language_change_004: Test Cases/Datadriven_testing/TC_language_change_004
+
+28-01-2024T23:02:28 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Navigate to 'https://www.amazon.in/' successfully
+
+28-01-2024T23:02:28 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+28-01-2024T23:02:28 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+28-01-2024T23:02:28 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+28-01-2024T23:02:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+28-01-2024T23:02:29 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/"): Navigate to 'https://www.amazon.in/' successfully
+
+28-01-2024T23:02:51 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/' successfully
+
+28-01-2024T23:02:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/language/Page_Online Shopping site in India Shop Onl_10c5f3/div_EN")): Object: 'Object Repository/language/Page_Online Shopping site in India Shop Onl_10c5f3/div_EN' is clicked on
+
+28-01-2024T23:02:56 - [MESSAGE][PASSED] - Object: 'Object Repository/language/Page_Online Shopping site in India Shop Onl_10c5f3/div_EN' is clicked on
+
+28-01-2024T23:02:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/language/Page_Change Language Settings/" + language)): Object: 'Object Repository/language/Page_Change Language Settings/English' is clicked on
+
+28-01-2024T23:02:59 - [MESSAGE][PASSED] - Object: 'Object Repository/language/Page_Change Language Settings/English' is clicked on
+
+28-01-2024T23:02:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/language/Page_Change Language Settings/input_a-button-input")): Object: 'Object Repository/language/Page_Change Language Settings/input_a-button-input' is clicked on
+
+28-01-2024T23:03:01 - [MESSAGE][PASSED] - Object: 'Object Repository/language/Page_Change Language Settings/input_a-button-input' is clicked on
+
+28-01-2024T23:03:01 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+28-01-2024T23:03:01 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+28-01-2024T23:03:01 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Datadriven_testing/TC_language_change_004" time="65.803" classname="Test Cases/Datadriven_testing/TC_language_change_004" status="PASSED">
+         <system-out><![CDATA[28-01-2024T23:03:01 - [TEST_CASE][PASSED] - Test Cases/Datadriven_testing/TC_language_change_004: Test Cases/Datadriven_testing/TC_language_change_004
+
+28-01-2024T23:03:01 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Navigate to 'https://www.amazon.in/' successfully
+
+28-01-2024T23:03:01 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+28-01-2024T23:03:01 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+28-01-2024T23:03:01 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+28-01-2024T23:03:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+28-01-2024T23:03:03 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/"): Navigate to 'https://www.amazon.in/' successfully
+
+28-01-2024T23:03:47 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/' successfully
+
+28-01-2024T23:03:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/language/Page_Online Shopping site in India Shop Onl_10c5f3/div_EN")): Object: 'Object Repository/language/Page_Online Shopping site in India Shop Onl_10c5f3/div_EN' is clicked on
+
+28-01-2024T23:04:04 - [MESSAGE][PASSED] - Object: 'Object Repository/language/Page_Online Shopping site in India Shop Onl_10c5f3/div_EN' is clicked on
+
+28-01-2024T23:04:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/language/Page_Change Language Settings/" + language)): Object: 'Object Repository/language/Page_Change Language Settings/Telugu' is clicked on
+
+28-01-2024T23:04:06 - [MESSAGE][PASSED] - Object: 'Object Repository/language/Page_Change Language Settings/Telugu' is clicked on
+
+28-01-2024T23:04:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/language/Page_Change Language Settings/input_a-button-input")): Object: 'Object Repository/language/Page_Change Language Settings/input_a-button-input' is clicked on
+
+28-01-2024T23:04:06 - [MESSAGE][PASSED] - Object: 'Object Repository/language/Page_Change Language Settings/input_a-button-input' is clicked on
+
+28-01-2024T23:04:06 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+28-01-2024T23:04:06 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+28-01-2024T23:04:07 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Datadriven_testing/TC_language_change_004" time="39.942" classname="Test Cases/Datadriven_testing/TC_language_change_004" status="PASSED">
+         <system-out><![CDATA[28-01-2024T23:04:07 - [TEST_CASE][PASSED] - Test Cases/Datadriven_testing/TC_language_change_004: Test Cases/Datadriven_testing/TC_language_change_004
+
+28-01-2024T23:04:07 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Navigate to 'https://www.amazon.in/' successfully
+
+28-01-2024T23:04:07 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+28-01-2024T23:04:07 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+28-01-2024T23:04:07 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+28-01-2024T23:04:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+28-01-2024T23:04:08 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/"): Navigate to 'https://www.amazon.in/' successfully
+
+28-01-2024T23:04:39 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/' successfully
+
+28-01-2024T23:04:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/language/Page_Online Shopping site in India Shop Onl_10c5f3/div_EN")): Object: 'Object Repository/language/Page_Online Shopping site in India Shop Onl_10c5f3/div_EN' is clicked on
+
+28-01-2024T23:04:43 - [MESSAGE][PASSED] - Object: 'Object Repository/language/Page_Online Shopping site in India Shop Onl_10c5f3/div_EN' is clicked on
+
+28-01-2024T23:04:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/language/Page_Change Language Settings/" + language)): Object: 'Object Repository/language/Page_Change Language Settings/Tamil' is clicked on
+
+28-01-2024T23:04:45 - [MESSAGE][PASSED] - Object: 'Object Repository/language/Page_Change Language Settings/Tamil' is clicked on
+
+28-01-2024T23:04:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/language/Page_Change Language Settings/input_a-button-input")): Object: 'Object Repository/language/Page_Change Language Settings/input_a-button-input' is clicked on
+
+28-01-2024T23:04:46 - [MESSAGE][PASSED] - Object: 'Object Repository/language/Page_Change Language Settings/input_a-button-input' is clicked on
+
+28-01-2024T23:04:46 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+28-01-2024T23:04:46 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+28-01-2024T23:04:47 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[28-01-2024T23:01:28 - [TEST_SUITE][PASSED] - TS_language_change_004: Test Cases/Datadriven_testing/TC_language_change_004]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+   <testsuite name="TS_login_001" tests="1" failures="0" errors="0" time="66.796" skipped="0" timestamp="28-01-2024T23:01:31" hostname="Santhoshini - LAPTOP-JQ2M32JD" id="Test Suites/TS_login_001">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Santhoshini\\git\\AMAZON-KATALON\\AMAZON-KATALON\\Reports\\20240128_230052\\TS_login_001\\20240128_230103"/>
+         <property name="logFiles" value="C:\\Users\\Santhoshini\\git\\AMAZON-KATALON\\AMAZON-KATALON\\Reports\\20240128_230052\\TS_login_001\\20240128_230103\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Santhoshini - LAPTOP-JQ2M32JD"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+         <property name="browser" value="Edge Chromium 121"/>
+         <property name="hostAddress" value="192.168.129.23"/>
+         <property name="sessionId" value="059701a4cd08572c36334a5f7fdb5c10"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/TC_Login_001" time="65.929" classname="Test Cases/TC_Login_001" status="PASSED">
+         <system-out><![CDATA[28-01-2024T23:01:32 - [TEST_CASE][PASSED] - Test Cases/TC_Login_001: Test Cases/TC_Login_001
+
+28-01-2024T23:01:32 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Navigate to 'https://www.amazon.in/' successfully
+
+28-01-2024T23:01:32 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+28-01-2024T23:01:34 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+28-01-2024T23:01:37 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+28-01-2024T23:01:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+28-01-2024T23:01:40 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/"): Navigate to 'https://www.amazon.in/' successfully
+
+28-01-2024T23:02:23 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/' successfully
+
+28-01-2024T23:02:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/div_Hello, sign in")): Object: 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/div_Hello, sign in' is clicked on
+
+28-01-2024T23:02:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/div_Hello, sign in' is clicked on
+
+28-01-2024T23:02:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Amazon Sign In/input_email"), "8096027287"): Text '8096027287' is set on object 'Object Repository/Page_Amazon Sign In/input_email'
+
+28-01-2024T23:02:30 - [MESSAGE][PASSED] - Text '8096027287' is set on object 'Object Repository/Page_Amazon Sign In/input_email'
+
+28-01-2024T23:02:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Amazon Sign In/inputcontinue")): Object: 'Object Repository/Page_Amazon Sign In/inputcontinue' is clicked on
+
+28-01-2024T23:02:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Amazon Sign In/inputcontinue' is clicked on
+
+28-01-2024T23:02:34 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Amazon Sign In/input_password"), "Dw24fpAn266gG7eSJMbliQ=="): Text ****** has been set on object 'Object Repository/Page_Amazon Sign In/input_password'
+
+28-01-2024T23:02:37 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Amazon Sign In/input_password'
+
+28-01-2024T23:02:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Amazon Sign In/inputsignInSubmit")): Object: 'Object Repository/Page_Amazon Sign In/inputsignInSubmit' is clicked on
+
+28-01-2024T23:02:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Amazon Sign In/inputsignInSubmit' is clicked on
+
+28-01-2024T23:02:37 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+28-01-2024T23:02:37 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+28-01-2024T23:02:38 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[28-01-2024T23:01:31 - [TEST_SUITE][PASSED] - TS_login_001: Test Cases/TC_Login_001]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
